@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Gifts for Her",
+    "slug": "gifts-for-her",
+    "category": "gifts"
+  },
+  {
+    "id": 2,
+    "name": "For Him",
+    "slug": "for-him",
+    "category": "gifts"
+  },
+  {
+    "id": 3,
+    "name": "my name",
+    "slug": "my-name",
+    "category": "gifts"
+  },
+  {
+    "id": 4,
+    "name": "hello",
+    "slug": "hello",
+    "category": "Bouquets"
+  }
+]

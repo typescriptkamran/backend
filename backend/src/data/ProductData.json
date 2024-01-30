@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "name": "red",
+    "slug": "red",
+    "category": "Bouquets",
+    "catSlug": "bouquets",
+    "subCategory": "Gifts for Her",
+    "subSlug": "gifts-for-her",
+    "shortDesc": "red",
+    "longDesc": "red",
+    "price": 121,
+    "imageUrl": "/products/red-flowers.jpg",
+    "status": true
+  }
+]

@@ -1,0 +1,50 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category": "Gifts",
+        "subcategory": "Personalized Gifts",
+        "name": "Custom Engraved Wooden Photo Frame",
+        "slug": "custom-engraved-wooden-photo-frame",
+        "price": 29.99,
+        "description": "A beautifully crafted wooden photo frame, perfect for adding a personal touch to your memories.",
+        "active": true,
+        "imageUrl": "https://example.com/photo-frame.jpg"
+      },
+      {
+        "id": 2,
+        "category": "Gifts",
+        "subcategory": "Home Decor",
+        "name": "Decorative Throw Pillow Set",
+        "slug": "decorative-throw-pillow-set",
+        "price": 19.99,
+        "description": "Elevate your home with this stylish set of decorative throw pillows, adding comfort and charm to any room.",
+        "active": true,
+        "imageUrl": "https://example.com/throw-pillows.jpg"
+      },
+  
+      {
+        "id": 3,
+        "category": "Bouquets",
+        "subcategory": "Fresh Bouquets",
+        "name": "Classic Red Roses Bouquet",
+        "slug": "classic-red-roses-bouquet",
+        "price": 39.99,
+        "description": "A stunning arrangement of fresh red roses, perfect for expressing love and admiration.",
+        "active": true,
+        "imageUrl": "https://example.com/red-roses-bouquet.jpg"
+      },
+      {
+        "id": 4,
+        "category": "Bouquets",
+        "subcategory": "Mixed Bouquets",
+        "name": "Vibrant Spring Mix Bouquet",
+        "slug": "vibrant-spring-mix-bouquet",
+        "price": 29.99,
+        "description": "Celebrate the season with this lively mix of colorful spring flowers, bringing joy to any occasion.",
+        "active": true,
+        "imageUrl": "https://example.com/spring-mix-bouquet.jpg"
+      }
+    ]
+  }
+  
