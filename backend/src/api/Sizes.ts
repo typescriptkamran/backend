@@ -8,7 +8,7 @@ import { Size } from '@/components/SizeForm';
 const dataFilePath = './src/data/SizesData.json';
 
 
-export const SaveSizesData = async (sizes: Size[]) => {
+export const SaveCountriesData = async (sizes: Size[]) => {
   try {
     const jsonData = JSON.stringify(sizes, null, 2);
   fs.writeFileSync('./src/data/SizesData.json', jsonData, 'utf-8');
@@ -29,7 +29,7 @@ const retrieveCustomerData = () => {
       return [];
   }
 };
-export const LoadSizesData = async () => {
+export const LoadCountryData = async () => {
   try {
     const jsonData = fs.readFileSync('./src/data/SizesData.json', 'utf-8');
       return JSON.parse(jsonData);

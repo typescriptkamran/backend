@@ -1,6 +1,6 @@
 'use client'
 // app/pages/index.tsx
-import { SaveSizesData as SaveSizesData, LoadSizesData as LoadSizesData } from '@/api/Sizes';
+import { SaveCountriesData as SaveCountriesData, LoadCountryData as LoadCountryData } from '@/api/Sizes';
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 
 export interface Size {
@@ -17,7 +17,7 @@ const SizeForm = (): JSX.Element => {
     // Load existing Sizes from JSON file
     const fetchData = async (): Promise<void> => {
       try {
-        const data = await LoadSizesData();
+        const data = await LoadCountryData();
         setsizes(data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -40,7 +40,7 @@ const SizeForm = (): JSX.Element => {
     setsizes([...sizes, newSize]);
 
     // Save Size to JSON file on the server
-    await SaveSizesData(sizes);
+    await SaveCountriesData(sizes);
 
     // Clear the input field
     setSizeName('');
@@ -58,12 +58,12 @@ const SizeForm = (): JSX.Element => {
     setsizes(updatedSizes);
 
     // Save updated sizes to JSON file on the server
-    await SaveSizesData(updatedSizes);
+    await SaveCountriesData(updatedSizes);
   };
 
   const handleSaveChanges = async (): Promise<void> => {
     // Save sizes to JSON file on the server
-    await SaveSizesData(sizes);
+    await SaveCountriesData(sizes);
   };
 
 
