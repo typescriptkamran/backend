@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Large",
+    "slug": "large"
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "slug": "standard"
+  },
+  {
+    "id": 3,
+    "name": "Extra Large",
+    "slug": "extra-large"
+  }
+]

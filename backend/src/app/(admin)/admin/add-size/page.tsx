@@ -1,8 +1,11 @@
+import SizeForm from '@/components/SizeForm'
 import React from 'react'
 
 function page() {
   return (
-    <div>Add size</div>
+    <div>
+    <SizeForm />  
+    </div>
   )
 }
 

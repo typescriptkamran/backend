@@ -1,6 +1,6 @@
 'use client'
 // app/pages/index.tsx
-import { SaveCategoriesData, LoadCategoriesData } from '@/api/categories';
+import { SaveSizesData, LoadCategoriesData } from '@/api/categories';
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 
 export interface Category {
@@ -40,7 +40,7 @@ const CategoryForm = (): JSX.Element => {
     setCategories([...categories, newCategory]);
 
     // Save categories to JSON file on the server
-    await SaveCategoriesData(categories);
+    await SaveSizesData(categories);
 
     // Clear the input field
     setCategoryName('');
@@ -58,12 +58,12 @@ const CategoryForm = (): JSX.Element => {
     setCategories(updatedCategories);
 
     // Save updated categories to JSON file on the server
-    await SaveCategoriesData(updatedCategories);
+    await SaveSizesData(updatedCategories);
   };
 
   const handleSaveChanges = async (): Promise<void> => {
     // Save categories to JSON file on the server
-    await SaveCategoriesData(categories);
+    await SaveSizesData(categories);
   };
 
 

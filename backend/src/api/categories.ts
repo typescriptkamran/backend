@@ -8,7 +8,7 @@ import { Category } from '@/components/CategoryForm';
 const dataFilePath = './src/data/CategoriesData.json';
 
 
-export const SaveCategoriesData = async (categories: Category[]) => {
+export const SaveSizesData = async (categories: Category[]) => {
   try {
     const jsonData = JSON.stringify(categories, null, 2);
   fs.writeFileSync('./src/data/CategoriesData.json', jsonData, 'utf-8');
