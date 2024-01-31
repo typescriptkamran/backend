@@ -22,6 +22,37 @@ const AdminSidebar = () => {
           </Link>
         </li>
         <li className="mb-3">
+          <Link href="/admin/add-size" className="hover:underline">
+            Add Size
+          </Link>
+        </li>
+        <li className="mb-3">
+          <Link href="/admin/add-country" className="hover:underline">
+            Add Country
+          </Link>
+        </li>
+        <li className="mb-3">
+          <Link href="/admin/add-city" className="hover:underline">
+            Add city
+          </Link>
+        </li>
+        <li className="mb-3">
+          <Link href="/admin/add-area" className="hover:underline">
+            Add Area
+          </Link>
+        </li>
+        <li className="mb-3">
+          <Link href="/admin/add-curency" className="hover:underline">
+            Add Curency
+          </Link>
+        </li>
+        <li className="mb-3">
+          <Link href="/admin/add-partners" className="hover:underline">
+            Add Partner
+          </Link>
+        </li>
+        
+        <li className="mb-3">
           <Link href="/admin/add-product" className="hover:underline">
             Add Product
           </Link>
